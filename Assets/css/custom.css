@@ -1,10 +1,8 @@
-
-
 body {
-  font-family: Poppins;
-  background-image: url('/Assets/imgs/Pattern.svg') ;
-  
-  
+  font-family     : Poppins;
+  background-image: url('/Assets/imgs/Pattern.svg');
+
+
 }
 
 
@@ -17,33 +15,77 @@ a {
 
 
 /* NavBar */
-#BurgerMenu{
-color: antiquewhite;
+#BurgerMenu {
+  color: antiquewhite;
 }
 
 #NavTop {
   background-color: #6E6E6E;
-  color: black;
-  border-radius: 5px;
-  box-shadow: 4px 7px 6px #C9C9C9;
-  height: 55px;
+  color           : black;
+  border-radius   : 5px;
+  box-shadow      : 1px 6px 5px #ffffff;
+  height          : 55px;
 }
 
-#SearchBox{
-  height: 35px;
+#SearchBox {
+  height       : 35px;
   border-radius: 6px;
 }
 
-/* Header Flag */
+/* Header  */
 .Header {
-  
+  background-color: #ffffff;
+  height          : 150px;
+  width           : 100%;
 }
 
 .Full {
-  height: 100%!important;
+  height: 100% !important;
 }
 
-.Flag{
-  width: 100px;
+.Flag {
+  width : 100px;
   height: 100px;
+}
+
+/*Mid section*/
+
+.MidSectipn {
+  border-radius   : 9px;
+  background-color: #FFCC00;
+  height          : 730px;
+  box-shadow      : 10px 10px 10px #00000042 inset;
+  margin-top      : 10px;
+
+}
+
+.NotifPanel {
+  border-radius   : 9px;
+  background-color: #EBEBEB;
+  height          : 530px;
+  box-shadow      : 10px 10px 10px #b1b1b1 inset;
+  margin-top      : 10px;
+}
+
+.SliderIthems{
+  border-radius   : 9px;
+  background-color: #EBEBEB;
+  height          : 130px;
+  box-shadow      : 10px 10px 10px #b1b1b1 inset;
+  margin-top      : 10px;
+}
+
+.footerB{
+  border-radius   : 9px;
+  background-color: #FFCC00;
+  height          : 390px;
+  box-shadow      : 10px 10px 10px #00000042 inset;
+  margin-top      : 10px;
+}
+
+.footercard{
+  margin: 5px;
+  margin-top: 15px;
+  border-radius: 12px;
+  height: 270px;
 }
