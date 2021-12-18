@@ -1,16 +1,26 @@
 
 
 body {
-  background-color: #e0e0e0;
   font-family: Poppins;
+  background-image: url('/Assets/imgs/Pattern.svg') ;
+  
+  
 }
+
+
 
 a {
   color: #ffffff;
 }
 
 
+
+
 /* NavBar */
+#BurgerMenu{
+color: antiquewhite;
+}
+
 #NavTop {
   background-color: #6E6E6E;
   color: black;
@@ -22,4 +32,18 @@ a {
 #SearchBox{
   height: 35px;
   border-radius: 6px;
+}
+
+/* Header Flag */
+.Header {
+  
+}
+
+.Full {
+  height: 100%!important;
+}
+
+.Flag{
+  width: 100px;
+  height: 100px;
 }
