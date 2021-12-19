@@ -75,22 +75,31 @@ a {
   margin-top      : 10px;
 }
 
-.footerB{
+.FooterBg{
   border-radius   : 9px;
-  background-color: #FFCC00;
-  height          : 390px;
-  box-shadow      : 10px 10px 10px #00000042 inset;
+  background-color: #EBEBEB;
+  height          : 130px;
+  box-shadow      : 10px 10px 10px #b1b1b1 inset;
   margin-top      : 10px;
+
 }
 
-.footercard{
-  margin: 5px;
-  margin-top: 15px;
-  border-radius: 12px;
-  height: 270px;
-}
 
 .SliderStyle{
   height: 666px;
   margin: 10px;
+}
+
+.Slidecard{
+  background-color: #ffffff;
+  width: 200px;
+  height: 300px;
+  border-radius: 5px;
+  margin: 10px;
+}
+
+.cardBTN{
+  height: 30%;
+  width: 30%;
+  background-color: #ffffff;
 }
