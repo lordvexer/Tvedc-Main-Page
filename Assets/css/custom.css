@@ -19,12 +19,41 @@ a {
   color: antiquewhite;
 }
 
+.nav-link{
+  color: #ffffff;
+  
+}
+
+
 #NavTop {
   background-color: #6E6E6E;
   color           : black;
   border-radius   : 5px;
-  box-shadow      : 1px 6px 5px #ffffff;
   height          : 55px;
+  z-index: 2;
+  
+}
+#NavMid {
+  background-color: #6E6E6E;
+  color           : black;
+  border-radius   : 5px;
+  height          : 55px; 
+z-index: 1;
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 97%;
+}
+
+.sticky + .content {
+  padding-top: 102px;
+}
+
+
+.content {
+  padding: 16px;
 }
 
 #SearchBox {
@@ -39,14 +68,29 @@ a {
   width           : 100%;
 }
 
-.Full {
-  height: 100% !important;
+
+
+.flag {
+  width: 120px;
+  height: 150px;
+  float: left;
 }
 
-.Flag {
-  width : 100px;
-  height: 100px;
+.YearOf{
+  justify-content: center;
+  display: flex;
+  padding-top: 29px;
+
 }
+
+.Logo{
+  height: 80px;
+    width: 80px;
+    margin-bottom: -54px;
+    box-shadow: 0px -1px 11px 0px #000000;
+
+}
+
 
 /*Mid section*/
 
@@ -77,11 +121,26 @@ a {
 
 .FooterBg{
   border-radius   : 9px;
-  background-color: #EBEBEB;
-  height          : 130px;
-  box-shadow      : 10px 10px 10px #b1b1b1 inset;
+  background-color: #FFC700;
+  box-shadow      : 4px 2px 20px 7px #00000057 inset;
   margin-top      : 10px;
 
+}
+.FooterCArd{
+  background-color: #ffffff;
+  height: 250px;
+  border-radius: 7px;
+  margin: 24px 16px 63px 0px;
+
+}
+
+.CopyRight{
+  font-family: ui-sans-serif;
+    text-align: center;
+    margin-top: -19px;
+    color: aliceblue;
+    font: small-caption;
+    font-weight: 900;
 }
 
 
@@ -98,8 +157,32 @@ a {
   margin: 10px;
 }
 
-.cardBTN{
-  height: 30%;
-  width: 30%;
+.BtnList{
   background-color: #ffffff;
+  height: 91px;
+  WIDTH: 235px;
+  border-radius: 5px;
+  margin: 22px 15px 12px -1px;
+  box-shadow: 0px 0px 6px 7px #00000017;
+ }
+
+/*Item Scroler*/
+.flex-container {
+overflow-x: scroll;
+overflow-y: hidden;
+white-space: nowrap;
+align-items: center;
+padding: 0px 0px 0px 0px;
 }
+
+/* Hide scrollbar for Chrome, Safari and Opera */
+.flex-container::-webkit-scrollbar {
+  display: none;
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+.flex-container {
+-ms-overflow-style: none;  /* IE and Edge */
+scrollbar-width: none;  /* Firefox */
+}
+
