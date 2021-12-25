@@ -31,26 +31,47 @@ a {
   background-color: #FFCC00;
   height: auto;
   border-radius: 6px;
-  padding: 20px 25px 0px 0px;
+  padding: 30px;
+  
 }
 .Slider{
   background-color: #f8f8f8;
   border-radius: 5px;
-  height: 365px;
-  margin-bottom: 20px;
+  height: 385px;
+  margin-bottom: 16px;
+ 
   
 }
 
 .ButtonTop{
-  background-color: #ccc;
+  background-color: rgb(168, 168, 168);
   border-radius: 5px;
-  height: 115px;
-  /* margin: 0px 0px 10px 10px; */
-}
-.containerNoPadding{
-  padding-right: 20px;
-}
+  height: 122px;
+  margin-bottom: 10px;
+  }
+ .NotifPanel{
+ background-color: #EBEBEB;
+  border-radius: 5px;
+  height: autox;
+  margin-bottom: 16px;
+  padding: 30px;
 
-.buttonGroupContainer{
-  margin-bottom: 15px;
-}
+ }
+ .Notif1{
+  height: 470px;
+ background-color: #515151;
+ border-radius: 5px;
+ height: 515px;
+ margin-bottom: 10px;
+
+
+ }
+ .Notif2{
+  height: 470px;
+ background-color: #515151;
+ border-radius: 5px;
+ height: 515px;
+ margin-bottom: 10px;
+ }
+ 
+
