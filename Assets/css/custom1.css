@@ -44,7 +44,7 @@ a {
 }
 
 .ButtonTop{
-  background-color: rgb(168, 168, 168);
+  background-color: rgb(255, 255, 255);
   border-radius: 5px;
   height: 122px;
   margin-bottom: 10px;
@@ -52,7 +52,7 @@ a {
  .NotifPanel{
  background-color: #EBEBEB;
   border-radius: 5px;
-  height: autox;
+  height: auto;
   margin-bottom: 16px;
   padding: 30px;
 
@@ -73,5 +73,18 @@ a {
  height: 515px;
  margin-bottom: 10px;
  }
+ .ButtonSlider{
+  background-color: rgb(255, 255, 255);
+  border-radius: 5px;
+  height: 100px;
+  margin-bottom: 10px;
+  }
+  .ButtonSliderBG{
+    background-color: #EBEBEB;
+    border-radius: 5px;
+    height: 130px;
+    margin-bottom: 10px;
+    padding: 15px;
+    }
  
 
