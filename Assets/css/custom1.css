@@ -35,7 +35,7 @@ a {
   
 }
 .Slider{
-  background-color: #f8f8f8;
+  background-color: #747474;
   border-radius: 5px;
   height: 385px;
   margin-bottom: 16px;
@@ -44,13 +44,13 @@ a {
 }
 
 .ButtonTop{
-  background-color: rgb(255, 255, 255);
+  background-color: #9c9c9c;
   border-radius: 5px;
   height: 122px;
   margin-bottom: 10px;
   }
  .NotifPanel{
- background-color: #EBEBEB;
+ background-color: #aaaaaa;
   border-radius: 5px;
   height: auto;
   margin-bottom: 16px;
@@ -74,17 +74,28 @@ a {
  margin-bottom: 10px;
  }
  .ButtonSlider{
-  background-color: rgb(255, 255, 255);
+  background-color: #a7a7a7;
   border-radius: 5px;
-  height: 100px;
-  margin-bottom: 10px;
+  height: 80px;
   }
   .ButtonSliderBG{
-    background-color: #EBEBEB;
+    background-color: #494949;
     border-radius: 5px;
-    height: 130px;
+    height: auto;
     margin-bottom: 10px;
     padding: 15px;
     }
- 
+ .footerbg{
+  background-color: #FFCC00;
+  height: auto;
+  border-radius: 6px;
+  padding: 30px;
+ }
+ .footerBoxes{
+  background-color: #b3b3b3;
+  height: 270px;
+  border-radius: 6px;
+  padding: 10px;
+  margin-bottom: 10px;
+ }
 
