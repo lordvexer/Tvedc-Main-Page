@@ -20,25 +20,18 @@
 
 
 <body>
+
+    <!-- NavTop -->
     <div class="container-fluid">
-
-
-        <!-- NavTop -->
-        <nav class="navbar navbar-expand-sm navbar-light Navbar1">
-            <div class="container-fluid">
-                <a class="navbar-brand" href="#">primary</a>
-                <button class="navbar-toggler" type="button" data-toggle="col-mdlapse" data-target="#navbarID"
-                    aria-controls="navbarID" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="col-mdlapse navbar-col-mdlapse" id="navbarID">
-                    <div class="navbar-nav">
-                        <a class="nav-link active" aria-current="page" href="#">Home</a>
-
-                    </div>
-                </div>
-            </div>
-        </nav>
+        <div class="topnav" id="myTopnav">
+            <a href="#home" class="active">صفحه اصلی</a>
+            <a href="#news">تالار گفتگو</a>
+            <a href="#contact">نظرسنجی</a>
+            <a href="#about">سوالات متداول</a>
+            <a href="javascript:void(0);" class="icon" onclick="NavFunction()">
+                <i class="fa fa-bars"></i>
+            </a>
+        </div>
     </div>
 
 
@@ -48,24 +41,18 @@
         </header>
 
         <!-- NavMid -->
-        <nav class="navbar navbar-expand-sm navbar-light Navbar2">
-            <div class="container-fluid">
-                <a class="navbar-brand" href="#">primary</a>
-                <button class="navbar-toggler" type="button" data-toggle="col-mdlapse" data-target="#navbarID2"
-                    aria-controls="navbarID" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="col-mdlapse navbar-col-mdlapse" id="navbarID">
-                    <div class="navbar-nav">
-                        <a class="nav-link active" aria-current="page" href="#">Home</a>
-
-                    </div>
-                </div>
-            </div>
-        </nav>
+        <div class="topnav NavCenter" id="myTopnav">
+            <a href="#home">قوانین و مقررات</a>
+            <a href="#news">منشور اخلاقی</a>
+            <a href="#contact">آموزش همگانی</a>
+            <a href="#about">درباره ما</a>
+            <a href="#about">تماس با ما</a>
+            <a href="javascript:void(0);" class="icon" onclick="NavFunction()">
+                <i class="fa fa-bars"></i>
+            </a>
+        </div>
+        
     </div>
-
-
     <!-- Slider And Icons -->
     <div class="container-fluid">
         <section class="SliderAndIcones">
@@ -89,22 +76,28 @@
                                     <div class="carousel-item active">
                                         <img src="/Assets/imgs/S1.jpg" class="d-block w-100 Slider" alt="...">
                                         <div class="carousel-caption ">
-                                            <h5>First slide label</h5>
-                                            <p>Some representative placeholder content for the first slide.</p>
+                                            <div class="SliderTextBG">
+                                                <h5>First slide label</h5>
+                                                <p>Some representative placeholder content for the first slide.</p>
+                                            </div>
                                         </div>
                                     </div>
                                     <div class="carousel-item">
                                         <img src="/Assets/imgs/S2.jpg" class="d-block w-100 Slider" alt="...">
-                                        <div class="carousel-caption d-none d-md-block">
-                                            <h5>Second slide label</h5>
-                                            <p>Some representative placeholder content for the second slide.</p>
+                                        <div class="carousel-caption ">
+                                            <div class="SliderTextBG">
+                                                <h5>Second slide label</h5>
+                                                <p>Some representative placeholder content for the second slide.</p>
+                                            </div>
                                         </div>
                                     </div>
                                     <div class="carousel-item">
                                         <img src="/Assets/imgs/S3.jpg" class="d-block w-100 Slider" alt="...">
-                                        <div class="carousel-caption d-none d-md-block">
-                                            <h5>Third slide label</h5>
-                                            <p>Some representative placeholder content for the third slide.</p>
+                                        <div class="carousel-caption ">
+                                            <div class="SliderTextBG">
+                                                <h5>Third slide label</h5>
+                                                <p>Some representative placeholder content for the third slide.</p>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
@@ -211,12 +204,63 @@
                     <!-- NotifPanel Section -->
                     <div class="col-xs-12  col-sm-12 col-md-6 col-lg-6 col-xl-5">
                         <div class="Notif1">
+                            <!-- Tabs Section -->
+                            <div class="tab ">
+                                <button class="tablinks" onclick="openCity(event, 'Notif01')">اطلاعیه ها</button>
+                                <button class="tablinks" onclick="openCity(event, 'Notif02')">مناقصات</button>
+                                <button class="tablinks" onclick="openCity(event, 'Notif03')">مزایدات</button>
+                                <button class="tablinks" onclick="openCity(event, 'Notif04')">فراخوان</button>
+
+                            </div>
+
+                            <div id="Notif01" class="tabcontent">
+                                <h3>London</h3>
+                                <p>London is the capital city of England.</p>
+                            </div>
+
+                            <div id="Notif02" class="tabcontent">
+                                <h3>Paris</h3>
+                                <p>Paris is the capital of France.</p>
+                            </div>
+
+                            <div id="Notif03" class="tabcontent">
+                                <h3>Tokyo</h3>
+                                <p>Tokyo is the capital of Japan.</p>
+                            </div>
+
+                            <div id="Notif04" class="tabcontent">
+                                <h3>Tokyo</h3>
+                                <p>Tokyo is the capital of Japan.</p>
+                            </div>
+
                         </div>
                     </div>
 
                     <!-- ResoultPanel Section -->
                     <div class="col-xs-12  col-sm-12 col-md-6 col-lg-4 col-xl-4">
                         <div class="Notif2">
+                            <!-- Tabs Section -->
+                            <div class="tab ">
+                                <button class="tablinks" onclick="openCity(event, 'Notif01')">درگاه آماری</button>
+                                <button class="tablinks" onclick="openCity(event, 'Notif02')">مدیریت مصرف</button>
+                                <button class="tablinks" onclick="openCity(event, 'Notif03')">تحقیق و پژوهش</button>
+
+                            </div>
+
+                            <div id="Notif01" class="tabcontent">
+                                <h3>London</h3>
+                                <p>London is the capital city of England.</p>
+                            </div>
+
+                            <div id="Notif02" class="tabcontent">
+                                <h3>Paris</h3>
+                                <p>Paris is the capital of France.</p>
+                            </div>
+
+                            <div id="Notif03" class="tabcontent">
+                                <h3>Tokyo</h3>
+                                <p>Tokyo is the capital of Japan.</p>
+                            </div>
                         </div>
                     </div>
 
