@@ -33,77 +33,100 @@ a {
   height: auto;
   border-radius: 6px;
   padding: 30px;
-  
+  margin-top: 15px;
+  box-shadow: inset 0px 0px 14px 4px #00000066;
 }
 .Slider{
-  background-color: #747474;
+  background-color: #ffffff;
   border-radius: 5px;
-  height: 385px;
+  height: 500px;
   margin-bottom: 16px;
- 
-  
+  object-fit: cover;
+  box-shadow: 0 0 15px 1px #0000004a;
 }
 
 .ButtonTop{
   background-color: #ffffff;
   border-radius: 5px;
-  height: 122px;
+  height: 160px;
   margin-bottom: 10px;
   padding-top: 15px;
-  }
+  box-shadow: 0 0 15px 1px #0000004a;
+    }
+  .ButtonSide{
+    background-color: #ffffff;
+    border-radius: 5px;
+    height: 135px;
+    margin-bottom: 10px;
+    padding-top: 15px;
+    box-shadow: 0 0 12px 1px #00000087;
+    }
  .NotifPanel{
- background-color: #aaaaaa;
+ background-color: #EBEBEB;
   border-radius: 5px;
   height: auto;
   margin-bottom: 16px;
   padding: 30px;
-
+  margin-top: 15px;
+  box-shadow: inset 0 0 7px 6px #00000047;
  }
  .Notif1{
   height: 470px;
  background-color: #515151;
  border-radius: 5px;
- height: 515px;
+ height: 570px;
  margin-bottom: 10px;
-
-
+ box-shadow: 0 0 12px 1px #00000087;
  }
  .Notif2{
   height: 470px;
  background-color: #515151;
  border-radius: 5px;
- height: 515px;
+ height: 570px;
  margin-bottom: 10px;
- }
+ box-shadow: 0 0 12px 1px #00000087;
+  }
  .ButtonSlider{
-  background-color: #a7a7a7;
+  background-color: #ffffff;
   border-radius: 5px;
   height: 80px;
+ box-shadow: 0 0 8px 0px #00000047;
+  
   }
   .ButtonSliderBG{
-    background-color: #494949;
+    background-color: #EBEBEB;
     border-radius: 5px;
     height: auto;
     margin-bottom: 10px;
     padding: 15px;
+  box-shadow: inset 0 0 9px 1px #00000047;
     }
  .footerbg{
   background-color: #FFCC00;
   height: auto;
   border-radius: 6px;
   padding: 30px;
+  margin-top: 15px;
+  box-shadow: inset 0 0 9px 1px #00000047;
+
  }
  .footerBoxes{
-  background-color: #b3b3b3;
-  height: 270px;
+  background-color: #ffffff;
+  height: 220px;
   border-radius: 6px;
   padding: 10px;
   margin-bottom: 10px;
+ box-shadow: 0 0 15px 3px #00000047;
+
  }
  .TopIcons{
    height: 60px;
 
  }
+ .SideIcons{
+  height: 115px;
+
+}
  .BtnText{
   text-align: center;
   font-weight: bold;
