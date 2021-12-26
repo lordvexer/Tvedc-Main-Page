@@ -1,0 +1,20 @@
+<svg id="Layer_1" xmlns="http://www.w3.org/2000/svg" width="73.493" height="70" viewBox="0 0 73.493 70">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #ffc312;
+      }
+    </style>
+  </defs>
+  <path id="Path_4" data-name="Path 4" class="cls-1" d="M13.249,18.5H1V63.708A7.489,7.489,0,0,0,8.656,71H66.838a7.489,7.489,0,0,0,7.656-7.292V1H13.249ZM4.062,63.708V21.417h9.187V63.708a4.494,4.494,0,0,1-4.593,4.375A4.494,4.494,0,0,1,4.062,63.708ZM16.311,3.917h55.12V63.708a4.494,4.494,0,0,1-4.593,4.375H14.777c.046-.057.078-.122.121-.181.087-.118.164-.242.243-.366a6.949,6.949,0,0,0,.917-2.068c.035-.137.08-.268.107-.408a6.793,6.793,0,0,0,.145-1.352V3.917Z" transform="translate(-1 -1)"/>
+  <path id="Path_5" data-name="Path 5" class="cls-1" d="M15,8H42.974v2H15Z" transform="translate(24.525 -1)"/>
+  <path id="Path_6" data-name="Path 6" class="cls-1" d="M19,13H38.982v2H19Z" transform="translate(15.4 4.739)"/>
+  <path id="Path_7" data-name="Path 7" class="cls-1" d="M31,21H42.989v2H31Z" transform="translate(24.51 8.565)"/>
+  <path id="Path_8" data-name="Path 8" class="cls-1" d="M31,26H42.989v2H31Z" transform="translate(24.51 10.957)"/>
+  <path id="Path_9" data-name="Path 9" class="cls-1" d="M26.989,21H15V33H26.989Zm-2,10H17V23h7.993Z" transform="translate(8.918 11.222)"/>
+  <path id="Path_10" data-name="Path 10" class="cls-1" d="M31,31H42.989v2H31Z" transform="translate(24.51 13.348)"/>
+  <path id="Path_11" data-name="Path 11" class="cls-1" d="M15,36H26.989v2H15Z" transform="translate(8.918 15.739)"/>
+  <path id="Path_12" data-name="Path 12" class="cls-1" d="M31,36H42.989v2H31Z" transform="translate(24.51 15.739)"/>
+  <path id="Path_13" data-name="Path 13" class="cls-1" d="M15,41H26.989v2H15Z" transform="translate(8.918 21)"/>
+  <path id="Path_14" data-name="Path 14" class="cls-1" d="M31,41H42.989v2H31Z" transform="translate(24.51 21)"/>
+</svg>

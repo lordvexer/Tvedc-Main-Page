@@ -44,10 +44,11 @@ a {
 }
 
 .ButtonTop{
-  background-color: #9c9c9c;
+  background-color: #ffffff;
   border-radius: 5px;
   height: 122px;
   margin-bottom: 10px;
+  padding-top: 15px;
   }
  .NotifPanel{
  background-color: #aaaaaa;
