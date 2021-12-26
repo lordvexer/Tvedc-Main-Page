@@ -1,6 +1,7 @@
 body {
   font-family     : Poppins;
   background-image: url('/Assets/imgs/Pattern.svg');
+  font-family: 'B Farnaz', tahoma, Arial;
 
 
 }
@@ -98,5 +99,16 @@ a {
   border-radius: 6px;
   padding: 10px;
   margin-bottom: 10px;
+ }
+ .TopIcons{
+   height: 60px;
+
+ }
+ .BtnText{
+  text-align: center;
+  font-weight: bold;
+  margin-top: 14px;
+  margin-bottom: 5px;
+  color: #858585;
  }
 
