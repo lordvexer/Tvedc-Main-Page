@@ -1,9 +1,19 @@
+@font-face {
+  font-family: 'irannastaliqregular';
+  src: url('/Assets/fonts/irannastaliqIranNastaliq.eot');
+  src: url('/Assets/fonts/irannastaliqIranNastaliq.eot?#iefix') format('embedded-opentype'),
+       url('/Assets/fonts/irannastaliqIranNastaliq.woff2') format('woff2'),
+       url('/Assets/fonts/irannastaliqIranNastaliq.woff') format('woff'),
+       url('/Assets/fonts/irannastaliqIranNastaliq.ttf') format('truetype'),
+       url('/Assets/fonts/irannastaliqIranNastaliq.svg#irannastaliqregular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+
+}
 body {
   font-family     : Poppins;
   background-image: url('/Assets/imgs/Pattern.svg');
   font-family: 'B Farnaz', tahoma, Arial;
-
-
 }
 
 
@@ -21,6 +31,7 @@ a {
 }
 .HeaderText{
   text-align: center;
+  
 }
 .flag{
   float: left;
@@ -47,7 +58,7 @@ a {
   border-radius: 6px;
   padding: 30px;
   margin-top: 15px;
-  box-shadow: inset 0px 0px 8px 7px #00000047;
+  /* box-shadow: inset 0px 0px 8px 7px #00000047; */
 }
 .Slider{
   background-color: #ffffff;
@@ -55,7 +66,7 @@ a {
   height: 500px;
   margin-bottom: 16px;
   object-fit: cover;
-  box-shadow: 0 0 15px 1px #0000004a;
+  box-shadow: 0px 4px 6px 0px #00000038;
 }
 
 .ButtonTop{
@@ -64,7 +75,7 @@ a {
   height: 160px;
   margin-bottom: 10px;
   padding-top: 15px;
-  box-shadow: 0 0 15px 1px #0000004a;
+  box-shadow: -2px 2px 7px 1px #00000040;
     }
   .ButtonSide{
     background-color: #ffffff;
@@ -72,7 +83,7 @@ a {
     height: 135px;
     margin-bottom: 10px;
     padding-top: 15px;
-    box-shadow: 0 0 12px 1px #00000087;
+    box-shadow: 0px 4px 7px 0px #00000021;
     }
  .NotifPanel{
  background-color: #EBEBEB;
@@ -81,7 +92,7 @@ a {
   margin-bottom: 16px;
   padding: 30px;
   margin-top: 15px;
-  box-shadow: inset 0 0 7px 6px #00000047;
+  /* box-shadow: inset 0 0 7px 6px #00000047; */
  }
  .Notif1{
   height: 470px;
@@ -89,7 +100,7 @@ a {
  border-radius: 5px;
  height: 570px;
  margin-bottom: 10px;
- box-shadow: 0 0 12px 1px #00000087;
+ box-shadow: 0px 3px 7px 1px #000000;
  }
  .Notif2{
   height: 470px;
@@ -97,13 +108,13 @@ a {
  border-radius: 5px;
  height: 570px;
  margin-bottom: 10px;
- box-shadow: 0 0 12px 1px #00000087;
+ box-shadow: 0px 3px 7px 1px #000000;
   }
  .ButtonSlider{
   background-color: #ffffff;
   border-radius: 5px;
   height: 80px;
- box-shadow: 0 0 8px 0px #00000047;
+ box-shadow:  0px 2px 6px 1px #00000017;
   
   }
   .SliderTextBG{
@@ -117,7 +128,7 @@ a {
     height: auto;
     margin-bottom: 10px;
     padding: 15px;
-  box-shadow: inset 0 0 9px 1px #00000047;
+  /* box-shadow: inset 0 0 9px 1px #00000047; */
     }
  .footerbg{
   background-color: #FFCC00;
@@ -125,7 +136,7 @@ a {
   border-radius: 6px;
   padding: 30px;
   margin-top: 15px;
-  box-shadow: inset 0 0 9px 1px #00000047;
+  /* box-shadow: inset 0 0 9px 1px #00000047; */
 
  }
  .footerBoxes{
@@ -136,6 +147,11 @@ a {
   margin-bottom: 10px;
  box-shadow: 0 0 15px 3px #00000047;
 
+ }
+ .FooterItems{
+  color: rgb(112 112 112);
+    font-weight: bolder;
+    font-size: 14px;
  }
  .TopIcons{
    height: 60px;
@@ -249,3 +265,5 @@ a {
     margin: 0 auto;
   }
 }
+
+/* Btn Card Motion Effect */
