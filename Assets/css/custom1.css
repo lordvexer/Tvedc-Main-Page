@@ -29,18 +29,22 @@ a {
   height          : 150px;
   width           : 100%;
 }
-.HeaderText{
-  text-align: center;
-  
+.HeaderIMGFIT{
+  height:150px;
+  object-fit: cover;
 }
+  
+
 .flag{
   float: left;
-  margin-top: -25px;
+  margin-top: 20px;
   height: 110px;
+  
+
 }
 .YearT{
   float: right;
-  margin-top: -25px;
+  margin-top: 20px;
   height: 110px;
 }
 .Navbar1{
@@ -99,7 +103,7 @@ a {
  background-color: #515151;
  border-radius: 5px;
  height: 570px;
- margin-bottom: 10px;
+ margin-bottom:20px;
  box-shadow: 0px 3px 7px 1px #000000;
  }
  .Notif2{
@@ -107,7 +111,7 @@ a {
  background-color: #515151;
  border-radius: 5px;
  height: 570px;
- margin-bottom: 10px;
+ margin-bottom: 20px;
  box-shadow: 0px 3px 7px 1px #000000;
   }
  .ButtonSlider{
