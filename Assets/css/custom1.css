@@ -37,14 +37,14 @@ a {
 
 .flag{
   float: left;
-  margin-top: 20px;
+  margin-top: -135px;
   height: 110px;
   
 
 }
 .YearT{
   float: right;
-  margin-top: 20px;
+  margin-top: -135px;
   height: 110px;
 }
 .Navbar1{
@@ -237,7 +237,7 @@ a {
 .topnav a.active {
   background-color: #fcd426;
   color: white;
-  border-radius: 10px;
+ 
 }
 
 .topnav .icon {
