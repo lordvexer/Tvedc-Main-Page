@@ -21,6 +21,9 @@ body {
 a {
   color: #ffffff;
 }
+h2{
+  line-height: 15px;
+}
 
 
 /* Header  */
@@ -74,12 +77,7 @@ a {
 }
 
 .ButtonTop{
-  background-color: #ffffff;
-  border-radius: 5px;
-  height: 160px;
-  margin-bottom: 10px;
-  padding-top: 15px;
-  box-shadow: -2px 2px 7px 1px #00000040;
+  width: 60px;
     }
   .ButtonSide{
     background-color: #ffffff;
@@ -270,13 +268,9 @@ a {
   }
 }
 
+
+
 /* Btn Card Motion Effect */
-
-
-
-
-
-
 .testimotionals .card {
   
   position:relative;
@@ -287,7 +281,8 @@ a {
   padding:20px;
   box-sizing:border-box;
   text-align:center;
-  box-shadow:0 10px 40px rgba(0,0,0,.5)
+  box-shadow: 0px 3px 3px 1px rgb(80 80 80 / 23%);
+  margin-bottom: 10px;
 }
 .testimotionals .card .layer {
   z-index:1;
@@ -312,28 +307,29 @@ a {
 
 .testimotionals .card .content p {
   font-size:14px;
-  line-height:24px;
+  line-height:20px;
   color:#fff;
   
 }
 .testimotionals .card .content .image {
-  width:100px; height:100px;
-  margin:0 auto;
-  border-radius:50%;
-  overflow:hidden;
+  width: 70px;
+  height: 70px;
+  margin: 0 auto;
+  border-radius: 50%;
+  overflow: hidden;
   border: 4px solid white;
-  box-shadow: 0 10px 40px rgba(0,0,0,0.5);
   
 }
 
 .testimotionals .card .conte nt .details h2 {
-font-size:18px;
+font-size:16px;
 color:white;
 }
 .testimotionals .card .content .details h2 span {
-font-size:18px;
-color:purple;
+font-size:14px;
+color:rgb(126, 126, 126);
   transition:0.5s;
+  
 }
 .testimotionals .card:hover .content .details h2 span {
   color:white;
