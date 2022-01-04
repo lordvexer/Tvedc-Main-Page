@@ -40,3 +40,6 @@ function NavFunction() {
     x.className = "topnav";
   }
 }
+
+
+//Flags
