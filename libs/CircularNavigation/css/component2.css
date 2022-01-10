@@ -53,10 +53,13 @@
     text-transform: uppercase;
     cursor: pointer;
     -webkit-backface-visibility: hidden;
+    box-shadow: 0px 4px 6px 0px #00000038;
+    -webkit-animation: breathing 1s ease-out infinite normal;
+    -webkit-font-smoothing: antialiased;
 }
 
 .csstransforms .cn-wrapper {
-    position: fixed;
+    position: absolute;
     z-index: 10;
     margin-top: -13em;
     margin-left: -13.5em;
@@ -146,7 +149,7 @@
     background: #429a67;
     background: -webkit-radial-gradient(transparent 35%, #429a67 35%);
     background: -moz-radial-gradient(transparent 35%, #429a67 35%);
-    background: radial-gradient(transparent 35%, #429a67 35%);
+    background: radial-gradient(transparent 35%, #f2c026b5 35%);
     color: #fff;
     text-align: center;
     text-decoration: none;
@@ -166,8 +169,6 @@
     top: 1.8em;
     display: block;
     font-size: .5em;
-    font-weight: 700;
-    text-transform: uppercase;
 }
 
 .csstransforms .cn-wrapper li a:hover,
@@ -175,7 +176,7 @@
 .csstransforms .cn-wrapper li a:focus {
     background: -webkit-radial-gradient(transparent 35%, #449e6a 35%);
     background: -moz-radial-gradient(transparent 35%, #449e6a 35%);
-    background: radial-gradient(transparent 35%, #449e6a 35%);
+    background: radial-gradient(transparent 35%, #f55656 35%);
 }
 
 .csstransforms .cn-wrapper li a:focus {
@@ -317,4 +318,35 @@
         height: 3em;
         line-height: 3em;
     }
+}
+
+.M1 {
+    transform: rotate( 207deg) translateY(-3px);
+}
+
+.M2 {
+    transform: rotate( 174deg) translateY(-3px);
+}
+
+.M3 {
+    transform: rotate( 145deg) translateY(-3px);
+}
+
+.M4 {
+    transform: rotate( 113deg) translateY(-3px) translateX(11px);
+}
+
+.M5 {
+    transform: rotate( 79deg) translateY(4px)translateX(7px);
+}
+
+.M6 {
+    transform: rotate( 48deg) translateY(6px) translateX(8px);
+}
+
+.M7 {
+    transform: rotate( 17deg) translateY(15px) translateX(7px);
+}
+
+
 }
